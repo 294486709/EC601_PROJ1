@@ -9,7 +9,11 @@ import subprocess
 from google.cloud import vision
 from google.cloud.vision import types
 import io
-
+consumer_key = ""
+consumer_secret = ""
+access_key = ""
+access_secret = ""
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=""
 
 def img_detection(Topic):
     print("Start detecting features with google vision analysis")
@@ -89,11 +93,6 @@ def get_image_url_from_tweet(tweet,images):
 
 
 def fatch_images(screen_name,num_pic):
-    key = readkey()
-    consumer_key = key[0]
-    consumer_secret = key[1]
-    access_key = key[2]
-    access_secret = key[3]
     # Auth
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
