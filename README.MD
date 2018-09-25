@@ -3,7 +3,7 @@ TITLE:EC601 PROJ1
 
 The project ONLY work with Python3.6  
 
-Please ensure you have the following packages before running this project:
+Please ensure you have the following packages before running this project:  
 1.tqdm  
 2.Pillow  
 3.google-cloud-vision  
