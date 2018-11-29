@@ -20,3 +20,9 @@ If the program cannot find required amount of pictures, it would warn you and ex
 
 If the program fails or you have any question, feel free to contect me at jedzhang@bu.edu
 
+# Mini3 Update
+
+Now the proj.py would report some information(user, time, operation system, topic, number of pictures, image url and detection result) to remote data base via mysql and mongoDB.
+
+For grading, please email jedzhang@bu.edu for the remote access.
+
