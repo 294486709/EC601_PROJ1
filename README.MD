@@ -24,5 +24,7 @@ If the program fails or you have any question, feel free to contect me at jedzha
 
 Now the proj.py would report some information(user, time, operation system, topic, number of pictures, image url and detection result) to remote data base via mysql and mongoDB.
 
+mangodb_manage.py and mysql_manage.py are used to read the remote database and do simple report and search operations.
+
 For grading, please email jedzhang@bu.edu for the remote access.
 
